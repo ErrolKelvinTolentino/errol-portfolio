@@ -1,0 +1,9 @@
+node_modules/
+.sites-runtime/
+*.log
+.env
+.env.*
+!.env.example
+.claude/
+artifacts/
+# dist/ is authored source in this buildless project; keep it tracked.

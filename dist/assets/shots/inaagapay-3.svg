@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000" role="img" aria-label="App screenshot placeholder">
+  <g fill="none" stroke="#98a0b4" stroke-opacity=".5" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="45" y="45" width="1510" height="910" rx="50" stroke-dasharray="35 28"/>
+  </g>
+  <g fill="none" stroke="#8e96ab" stroke-opacity=".75" stroke-width="8.625" stroke-linecap="round" stroke-linejoin="round"><rect x="680.4" y="361.6" width="239.20000000000002" height="176.8" rx="18.200000000000003"/><path d="M680.4 411h239.20000000000002"/><circle cx="706.4" cy="386.3" r="7.8"/><circle cx="732.4" cy="386.3" r="7.8"/></g>
+  <text x="800" y="703.5" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="52" font-weight="600" fill="#868da1" letter-spacing="0.52">App screenshot</text>
+  <text x="800" y="778.9" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="36" fill="#959cae">InaAgapay · desktop 16:10</text>
+</svg>

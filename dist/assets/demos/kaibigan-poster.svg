@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Demo video placeholder">
+  <g fill="none" stroke="#98a0b4" stroke-opacity=".5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="40" y="40" width="1520" height="820" rx="44" stroke-dasharray="30 24"/>
+  </g>
+  <g fill="none" stroke="#8e96ab" stroke-opacity=".75" stroke-width="7" stroke-linejoin="round">
+    <circle cx="800" cy="410" r="78"/>
+    <path d="M776 370 L846 410 L776 450 Z" stroke-linecap="round"/>
+  </g>
+  <text x="800" y="566" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="48" font-weight="600" fill="#868da1">Demo video</text>
+  <text x="800" y="618" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="33" fill="#959cae">Kaibigan · 16:9 · screen recording or walkthrough</text>
+</svg>

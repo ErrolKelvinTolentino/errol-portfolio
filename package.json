@@ -1,0 +1,14 @@
+{
+  "name": "errol-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Errol Kelvin Tolentino — interactive resume and portfolio",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node scripts/check.mjs",
+    "test": "node --test scripts/test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
