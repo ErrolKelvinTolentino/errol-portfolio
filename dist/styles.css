@@ -1498,6 +1498,14 @@ a.dialog-link:hover { background: var(--ink); color: var(--canvas); border-color
 }
 
 /* Engineering notebook and inspectable portfolio explorer. */
+.hero-identity { display: flex; align-items: center; gap: 18px; margin-bottom: 25px; }
+.hero-identity > img { width: 88px; height: 88px; flex-shrink: 0; object-fit: cover; border-radius: 22px; border: 1px solid var(--line); }
+.hero-identity strong { display: block; font-size: 1.125rem; font-weight: 600; letter-spacing: -.02em; }
+.hero-identity span { display: block; margin-top: 5px; color: var(--muted); font-size: .8125rem; line-height: 1.5; }
+.about-portrait { margin: 30px 0 0; max-width: 420px; }
+.about-portrait > img { display: block; width: 100%; border-radius: var(--radius-card); border: 1px solid var(--line); }
+.about-portrait figcaption { margin-top: 12px; color: var(--muted); font-size: .8125rem; }
+@media (max-width: 640px) { .hero-identity { gap: 14px; margin-bottom: 22px; } .hero-identity > img { width: 72px; height: 72px; border-radius: 18px; } .hero-identity span { font-size: .75rem; } }
 .engineering-notebook { padding: 26px 30px 0; border: 1px solid var(--line); border-radius: 24px; background: var(--surface); box-shadow: var(--shadow-card); }
 .notebook-top, .lab-console-top { display: flex; align-items: center; gap: 9px; font: 11px ui-monospace, Consolas, monospace; letter-spacing: .06em; color: var(--muted); }
 .notebook-top > span:last-child { margin-left: auto; color: var(--faint); }

@@ -1,8 +1,7 @@
 # Replacing the placeholders
 
-Every image on the site is a real file in this folder. The grey dashed boxes you see
-are placeholder SVGs — swap them for your own photos and the site picks them up with
-no other changes.
+The supplied portrait is saved as `portrait.png` and displayed in the hero and About
+section. Project screenshots and event photos still use labeled placeholder SVGs.
 
 ## The two-minute version
 
@@ -19,8 +18,8 @@ Keeping the same name only works for SVG, so in practice you will save a real ph
 
 | File | Shown where | Shape | Reference to update |
 | --- | --- | --- | --- |
-| `portrait.svg` | Hero, main portrait card | 4:5 portrait, 800×1000 or larger | `dist/index.html`, the `<img id="portrait">` tag |
-| `portrait-alt.svg` | About section, candid shot | 3:2 landscape, 1200×800 or larger | `dist/index.html`, inside `<figure class="candid-frame">` |
+| `portrait.png` | Hero identity and About portrait | Original supplied photo, 960×952 | `dist/index.html`, `.hero-identity` and `.about-portrait` images |
+| `portrait.svg`, `portrait-alt.svg` | Unused legacy placeholders | Not displayed | Retained for reference |
 
 ## App screenshots — `shots/`
 
