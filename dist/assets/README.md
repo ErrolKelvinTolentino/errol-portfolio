@@ -18,7 +18,7 @@ Keeping the same name only works for SVG, so in practice you will save a real ph
 
 | File | Shown where | Shape | Reference to update |
 | --- | --- | --- | --- |
-| `portrait.png` | Hero identity and About portrait | Original supplied photo, 960×952 | `dist/index.html`, `.hero-identity` and `.about-portrait` images |
+| `portrait.png` | Large hero portrait and About portrait | Original supplied photo, 960×952 | `dist/index.html`, `.hero-portrait` and `.about-portrait` images |
 | `portrait.svg`, `portrait-alt.svg` | Unused legacy placeholders | Not displayed | Retained for reference |
 
 ## App screenshots — `shots/`

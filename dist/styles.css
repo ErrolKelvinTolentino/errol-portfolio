@@ -1501,6 +1501,14 @@ a.dialog-link:hover { background: var(--ink); color: var(--canvas); border-color
 .hero-identity { display: flex; align-items: center; gap: 18px; margin-bottom: 25px; }
 .hero-identity > img { width: 88px; height: 88px; flex-shrink: 0; object-fit: cover; border-radius: 22px; border: 1px solid var(--line); }
 .hero-identity strong { display: block; font-size: 1.125rem; font-weight: 600; letter-spacing: -.02em; }
+.hero-showcase.hero-portrait { margin: 0; padding: 0; width: 100%; }
+.hero-portrait > img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center; border-radius: 28px; border: 1px solid var(--line); box-shadow: var(--shadow-card); }
+.hero-portrait figcaption { padding: 18px 4px 0; }
+.hero-portrait figcaption strong { display: block; font-size: .9375rem; font-weight: 600; }
+.hero-portrait figcaption span { display: block; margin-top: 6px; font-size: .8125rem; line-height: 1.6; color: var(--muted); }
+.lab-notebook { width: min(100%, 760px); margin: 40px auto 0; }
+@media (max-width: 860px) { .hero-showcase.hero-portrait { max-width: 480px; margin-inline: auto; } }
+@media (max-width: 640px) { .hero-portrait > img { border-radius: 22px; } }
 .hero-identity span { display: block; margin-top: 5px; color: var(--muted); font-size: .8125rem; line-height: 1.5; }
 .about-portrait { margin: 30px 0 0; max-width: 420px; }
 .about-portrait > img { display: block; width: 100%; border-radius: var(--radius-card); border: 1px solid var(--line); }
